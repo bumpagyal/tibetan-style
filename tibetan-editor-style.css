@@ -1,0 +1,14 @@
+/*---------------------------------------------------------------------------------
+	Editor styles for Tibetan
+---------------------------------------------------------------------------------*/
+
+body#tinymce.wp-editor {
+	font-family: "Qomolangma-Uchen Sarchung" !important;
+	line-height: 1.8;
+}
+body#tinymce.wp-editor h1, body#tinymce.wp-editor h2, body#tinymce.wp-editor h3, body#tinymce.wp-editor h4, body#tinymce.wp-editor h5, body#tinymce.wp-editor h6 {
+	font-family: "Qomolangma-Uchen Sarchen" !important;
+}
+body#tinymce.wp-editor cite {
+	font-family: "Qomolangma-Uchen Sarchen" !important;
+}
