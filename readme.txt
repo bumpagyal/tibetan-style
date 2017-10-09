@@ -3,7 +3,7 @@
 Plugin Name: Tibetan Style
 Tags: Tibetan,Tibetan font
 Donate link: http://www.tibetitw.com/
-Plugin URI: http://www.tibetitw.com/wordpress-plugin/tibetan-style/
+Plugin URI: https://github.com/bumpagyal/tibetan-style
 Contributors: tibetitw.com
 Requires at least: 1.1.0
 Tested up to: 1.1.1
