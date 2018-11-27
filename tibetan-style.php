@@ -4,14 +4,14 @@ Plugin Name: Tibetan Style
 Plugin URI: https://github.com/bumpagyal/tibetan-style
 Description: This plugin solves the default Windows Tibetan font is too small problem. Unified use of "Qomolangma-Uchen Sarchen" font.
 Author: tibetitw.com
-Version: 1.1.1
+Version: 1.1.2
 Author URI: http://www.tibetitw.com/
 */
 
 function load_custom_admin_styles() {
     wp_register_style( 'tibetan-style', plugins_url('', __FILE__) . '/tibetan-font.css', false, '1.1.1' );
     wp_enqueue_style( 'tibetan-style' );
-    $custom_inline_style = '*,#wpadminbar *{font-family: "Qomolangma-Uchen Sarchen",sans-serif;}';
+    $custom_inline_style = '*,#wpadminbar *{font-family:"Qomolangma-Uchen Sarchen";}.editor-post-title__block .editor-post-title__input,.wp-block-heading h1,.wp-block-heading h2,.wp-block-heading h3,.wp-block-heading h4,.wp-block-heading h5,.wp-block-heading h6{font-family:"Qomolangma-Uchen Sarchen"!important;font-weight:normal!important;}.block-editor *{font-family:"Qomolangma-Uchen Sarchung"!important;}';
     wp_add_inline_style( 'tibetan-style', $custom_inline_style );
 }
 add_action( 'admin_enqueue_scripts', 'load_custom_admin_styles' );
@@ -28,7 +28,7 @@ add_action( 'init', 'tibetan_add_editor_styles' );
 function load_custom_styles() {
     wp_register_style( 'tibetan-style-page', plugins_url('', __FILE__) . '/tibetan-font.css', false, '1.1.1' );
     wp_enqueue_style( 'tibetan-style-page' );
-    $custom_inline_style = '#wpadminbar *{font-family: "Qomolangma-Uchen Sarchen",sans-serif;}';
+    $custom_inline_style = '#wpadminbar *{font-family:"Qomolangma-Uchen Sarchen";}pre.wp-block-verse{font-family:"Qomolangma-Uchen Sarchung"!important;}';
     wp_add_inline_style( 'tibetan-style-page', $custom_inline_style );
 }
 add_action( 'wp_enqueue_scripts', 'load_custom_styles' );
