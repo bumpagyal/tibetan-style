@@ -4,15 +4,16 @@
 
 body#tinymce.wp-editor,
 .block-editor * {
-	font-family: "Qomolangma-Uchen Sarchung" !important;
+	font-family: "Noto Sans Tibetan";
 	line-height: 1.8;
 }
-body#tinymce.wp-editor h1, body#tinymce.wp-editor h2, body#tinymce.wp-editor h3, body#tinymce.wp-editor h4, body#tinymce.wp-editor h5, body#tinymce.wp-editor h6 {
-	font-family: "Qomolangma-Uchen Sarchen" !important;
-	font-weight: normal;
-}
+body#tinymce.wp-editor h1,
+body#tinymce.wp-editor h2,
+body#tinymce.wp-editor h3,
+body#tinymce.wp-editor h4,
+body#tinymce.wp-editor h5,
+body#tinymce.wp-editor h6,
 body#tinymce.wp-editor cite,
 .editor-post-title__block .editor-post-title__input {
-	font-family: "Qomolangma-Uchen Sarchen" !important;
-	font-weight: normal;
+	font-family: "Noto Sans Tibetan";
 }
