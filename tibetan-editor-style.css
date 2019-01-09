@@ -4,7 +4,7 @@
 
 body#tinymce.wp-editor,
 .block-editor * {
-	font-family: "Noto Sans Tibetan";
+	font-family: "Noto Sans Tibetan","Helvetica Neue",Helvetica,Arial,sans-serif;
 	line-height: 1.8;
 }
 body#tinymce.wp-editor h1,
@@ -15,5 +15,5 @@ body#tinymce.wp-editor h5,
 body#tinymce.wp-editor h6,
 body#tinymce.wp-editor cite,
 .editor-post-title__block .editor-post-title__input {
-	font-family: "Noto Sans Tibetan";
+	font-family: "Noto Sans Tibetan","Helvetica Neue",Helvetica,Arial,sans-serif;
 }

@@ -11,7 +11,7 @@ Author URI: http://www.tibetitw.com/
 function load_custom_admin_styles() {
     wp_register_style( 'tibetan-style', plugins_url('', __FILE__) . '/notosanstibetan.css', false, '1.1.2' );
     wp_enqueue_style( 'tibetan-style' );
-    $custom_inline_style = '*,#wpadminbar *,.editor-post-title__block .editor-post-title__input,.wp-block-heading h1,.wp-block-heading h2,.wp-block-heading h3,.wp-block-heading h4,.wp-block-heading h5,.wp-block-heading h6,.block-editor *{font-family:"Noto Sans Tibetan";}';
+    $custom_inline_style = '*,#wpadminbar *,.editor-post-title__block .editor-post-title__input,.wp-block-heading h1,.wp-block-heading h2,.wp-block-heading h3,.wp-block-heading h4,.wp-block-heading h5,.wp-block-heading h6,.block-editor *{font-family:"Noto Sans Tibetan","Helvetica Neue",Helvetica,Arial,sans-serif;}';
     wp_add_inline_style( 'tibetan-style', $custom_inline_style );
 }
 add_action( 'admin_enqueue_scripts', 'load_custom_admin_styles' );
@@ -28,7 +28,7 @@ add_action( 'init', 'tibetan_add_editor_styles' );
 function load_custom_styles() {
     wp_register_style( 'tibetan-style-page', plugins_url('', __FILE__) . '/notosanstibetan.css', false, '1.1.2' );
     wp_enqueue_style( 'tibetan-style-page' );
-    $custom_inline_style = '#wpadminbar *,pre.wp-block-verse{font-family:"Noto Sans Tibetan";}';
+    $custom_inline_style = '#wpadminbar *,pre.wp-block-verse{font-family:"Noto Sans Tibetan","Helvetica Neue",Helvetica,Arial,sans-serif;}';
     wp_add_inline_style( 'tibetan-style-page', $custom_inline_style );
 }
 add_action( 'wp_enqueue_scripts', 'load_custom_styles' );
