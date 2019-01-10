@@ -1,5 +1,5 @@
 /*---------------------------------------------------------------------------------
-	Editor styles for Tibetan
+	Tibetan style
 ---------------------------------------------------------------------------------*/
 
 /*
@@ -19,9 +19,4 @@
 body *,
 #wpadminbar *{
 	font-family: "Noto Sans Tibetan","Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-/* Tibetan */
-html[lang="bo"] .wp-block * {
-  font-family: dashicons,"Noto Sans Tibetan","Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
