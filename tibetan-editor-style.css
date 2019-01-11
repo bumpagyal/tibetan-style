@@ -23,5 +23,8 @@ body *,
 
 /* Tibetan */
 html[lang="bo"] .wp-block * {
-  font-family: dashicons,"Noto Sans Tibetan","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+  font-family: "Noto Sans Tibetan","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+html[lang="bo"] .wp-block .mce-toolbar .mce-ico {
+  font-family: dashicons !important;
 }
