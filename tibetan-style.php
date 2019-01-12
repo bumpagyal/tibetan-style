@@ -4,16 +4,16 @@ Plugin Name: Tibetan Style
 Plugin URI: https://github.com/bumpagyal/tibetan-style
 Description: This plugin solves the default Windows Tibetan font is too small problem. Unified use of "Noto Sans Tibetan" font.
 Author: tibetitw.com
-Version: 1.2.0
+Version: 1.2.1
 Author URI: http://www.tibetitw.com/
 */
 
 function load_plugin_scripts() {
-    wp_register_style( 'tibetan-style', plugins_url('/tibetan-style.css', __FILE__), false, '1.2.0' );
+    wp_register_style( 'tibetan-style', plugins_url('/tibetan-style.css', __FILE__), false, '1.2.1' );
     wp_enqueue_style( 'tibetan-style' );
 }
 function load_plugin_admin_scripts() {
-    wp_register_style( 'tibetan-editor-style', plugins_url('/tibetan-editor-style.css', __FILE__), false, '1.2.0' );
+    wp_register_style( 'tibetan-editor-style', plugins_url('/tibetan-editor-style.css', __FILE__), false, '1.2.1' );
     wp_enqueue_style( 'tibetan-editor-style' );
 }
 add_action( 'wp_enqueue_scripts', 'load_plugin_scripts' );

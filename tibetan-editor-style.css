@@ -6,7 +6,7 @@
  * Noto Sans Tibetan (Tibetan) http://www.google.com/fonts/earlyaccess
  */
 @font-face {
-  font-family: 'Noto Sans Tibetan';
+  font-family: 'Microsoft Himalaya';
   font-style: normal;
   font-weight: 400;
   src: url(fonts/NotoSansTibetan-Regular.eot);
@@ -18,12 +18,12 @@
 
 body *,
 #wpadminbar *{
-	font-family: "Noto Sans Tibetan","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: Kokonor,Kailasa,"Noto Sans Tibetan","Microsoft Himalaya","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 /* Tibetan */
 html[lang="bo"] .wp-block * {
-  font-family: "Noto Sans Tibetan","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+  font-family: Kokonor,Kailasa,"Noto Sans Tibetan","Microsoft Himalaya","Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
 html[lang="bo"] .wp-block .mce-toolbar .mce-ico {
   font-family: dashicons !important;
