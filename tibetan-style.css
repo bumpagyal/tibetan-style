@@ -2,21 +2,9 @@
 	Tibetan style
 ---------------------------------------------------------------------------------*/
 
-/*
- * Noto Sans Tibetan (Tibetan) http://www.google.com/fonts/earlyaccess
- */
-@font-face {
-  font-family: 'Microsoft Himalaya';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/NotoSansTibetan-Regular.eot);
-  src: url(fonts/NotoSansTibetan-Regular.eot?#iefix) format('embedded-opentype'),
-       url(fonts/NotoSansTibetan-Regular.woff2) format('woff2'),
-       url(fonts/NotoSansTibetan-Regular.woff) format('woff'),
-       url(fonts/NotoSansTibetan-Regular.ttf) format('truetype');
-}
+@import url(//fonts.googleapis.com/earlyaccess/notosanstibetan.css);
 
 body *,
 #wpadminbar *{
-	font-family: Kokonor,Kailasa,"Noto Sans Tibetan","Microsoft Himalaya","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: Kokonor,Kailasa,"Noto Sans Tibetan","Microsoft Himalaya","Tibetan Machine Uni","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
