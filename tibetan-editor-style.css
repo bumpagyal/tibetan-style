@@ -2,16 +2,14 @@
 	Editor styles for Tibetan
 ---------------------------------------------------------------------------------*/
 
-@import url(//fonts.googleapis.com/earlyaccess/notosanstibetan.css);
-
-body *,
+body, button, input, select, textarea,
 #wpadminbar *{
-	font-family: Kokonor,Kailasa,"Noto Sans Tibetan","Microsoft Himalaya","Tibetan Machine Uni","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "Noto Sans Tibetan","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 /* Tibetan */
 html[lang="bo"] .wp-block * {
-  font-family: Kokonor,Kailasa,"Noto Sans Tibetan","Microsoft Himalaya","Tibetan Machine Uni","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+  font-family: "Noto Sans Tibetan","Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
 html[lang="bo"] .wp-block .mce-toolbar .mce-ico {
   font-family: dashicons !important;

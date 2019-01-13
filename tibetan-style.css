@@ -2,9 +2,7 @@
 	Tibetan style
 ---------------------------------------------------------------------------------*/
 
-@import url(//fonts.googleapis.com/earlyaccess/notosanstibetan.css);
-
-body *,
+body, button, input, select, textarea,
 #wpadminbar *{
-	font-family: Kokonor,Kailasa,"Noto Sans Tibetan","Microsoft Himalaya","Tibetan Machine Uni","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "Noto Sans Tibetan","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
