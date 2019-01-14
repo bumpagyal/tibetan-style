@@ -2,7 +2,20 @@
 	Tibetan style
 ---------------------------------------------------------------------------------*/
 
-body, button, input, select, textarea,
+/*
+ * Noto Sans Tibetan (Tibetan) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+	font-family: 'Noto Sans Tibetan';
+	font-style: normal;
+	font-weight: 400;
+	src: url(//fonts.gstatic.com/ea/notosanstibetan/v1/NotoSansTibetan-Regular.eot);
+	src: url(//fonts.gstatic.com/ea/notosanstibetan/v1/NotoSansTibetan-Regular.eot?#iefix) format('embedded-opentype'),
+		url(//fonts.gstatic.com/ea/notosanstibetan/v1/NotoSansTibetan-Regular.woff2) format('woff2'),
+		url(//fonts.gstatic.com/ea/notosanstibetan/v1/NotoSansTibetan-Regular.woff) format('woff'),
+		url(//fonts.gstatic.com/ea/notosanstibetan/v1/NotoSansTibetan-Regular.ttf) format('truetype');
+}
+
 #wpadminbar *{
-	font-family: "Noto Sans Tibetan","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "Qomolangma-Uchen Sarchen","Noto Sans Tibetan","Helvetica Neue",Helvetica,Arial,sans-serif;
 }

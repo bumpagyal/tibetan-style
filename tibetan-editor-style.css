@@ -2,14 +2,29 @@
 	Editor styles for Tibetan
 ---------------------------------------------------------------------------------*/
 
-body, button, input, select, textarea,
-#wpadminbar *{
-	font-family: "Noto Sans Tibetan","Helvetica Neue",Helvetica,Arial,sans-serif;
+/*
+ * Noto Sans Tibetan (Tibetan) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+	font-family: 'Noto Sans Tibetan';
+	font-style: normal;
+	font-weight: 400;
+	src: url(//fonts.gstatic.com/ea/notosanstibetan/v1/NotoSansTibetan-Regular.eot);
+	src: url(//fonts.gstatic.com/ea/notosanstibetan/v1/NotoSansTibetan-Regular.eot?#iefix) format('embedded-opentype'),
+		url(//fonts.gstatic.com/ea/notosanstibetan/v1/NotoSansTibetan-Regular.woff2) format('woff2'),
+		url(//fonts.gstatic.com/ea/notosanstibetan/v1/NotoSansTibetan-Regular.woff) format('woff'),
+		url(//fonts.gstatic.com/ea/notosanstibetan/v1/NotoSansTibetan-Regular.ttf) format('truetype');
+}
+
+body *,
+#wpadminbar *,
+.wp-editor-container textarea.wp-editor-area {
+	font-family: "Qomolangma-Uchen Sarchen","Noto Sans Tibetan","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 /* Tibetan */
 html[lang="bo"] .wp-block * {
-  font-family: "Noto Sans Tibetan","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+  font-family: "Qomolangma-Uchen Sarchung","Noto Sans Tibetan","Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
 html[lang="bo"] .wp-block .mce-toolbar .mce-ico {
   font-family: dashicons !important;
