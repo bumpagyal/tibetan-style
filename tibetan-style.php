@@ -16,14 +16,14 @@ function load_plugin_admin_scripts() {
     wp_register_style( 'tibetan-editor-style', plugins_url('/tibetan-editor-style.css', __FILE__), false, '1.2.6' );
     wp_enqueue_style( 'tibetan-editor-style' );
 }
-// function load_tibetan_google_fonts() {
-// 	wp_enqueue_style( 'tibetan-google-fonts', '//fonts.googleapis.com/earlyaccess/notosanstibetan.css', false ); 
-// }
+function load_tibetan_google_fonts() {
+	wp_enqueue_style( 'tibetan-google-fonts', '//fonts.googleapis.com/earlyaccess/notosanstibetan.css', false ); 
+}
 
 add_action( 'wp_enqueue_scripts', 'load_plugin_scripts' );
 add_action( 'admin_enqueue_scripts', 'load_plugin_admin_scripts' );
 add_action( 'login_enqueue_scripts', 'load_plugin_admin_scripts' );
 
-// add_action( 'wp_enqueue_scripts', 'load_tibetan_google_fonts' );
-// add_action( 'admin_enqueue_scripts', 'load_tibetan_google_fonts' );
-// add_action( 'login_enqueue_scripts', 'load_tibetan_google_fonts' );
+add_action( 'wp_enqueue_scripts', 'load_tibetan_google_fonts' );
+add_action( 'admin_enqueue_scripts', 'load_tibetan_google_fonts' );
+add_action( 'login_enqueue_scripts', 'load_tibetan_google_fonts' );
