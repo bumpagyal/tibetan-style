@@ -19,12 +19,12 @@
 body *,
 #wpadminbar *,
 .wp-editor-container textarea.wp-editor-area {
-	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue","Noto Sans Tibetan",sans-serif;
+	font-family: "Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue","Noto Sans Tibetan",sans-serif;
 }
 
 /* Tibetan */
 html[lang="bo"] .wp-block * {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue","Noto Sans Tibetan",sans-serif !important;
+  font-family: "Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue","Noto Sans Tibetan",sans-serif !important;
 }
 html[lang="bo"] .wp-block .mce-toolbar .mce-ico {
   font-family: dashicons !important;
