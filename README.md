@@ -10,5 +10,5 @@
 
 ### 例如
 ```css
-font-family: "Noto Sans Tibetan","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue","Noto Sans Tibetan",sans-serif;
 ```
