@@ -10,5 +10,5 @@
 
 ### 例如
 ```css
-font-family: "Helvetica Neue", Helvetica, "Noto Sans Tibetan", sans-serif;
+font-family: "Helvetica Neue", Helvetica, Arial, "Noto Sans Tibetan", sans-serif;
 ```
