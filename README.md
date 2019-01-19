@@ -10,5 +10,5 @@
 
 ### 例如
 ```css
-font-family: "Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue","Noto Sans Tibetan",sans-serif;
+font-family: "Helvetica Neue", Helvetica, "Noto Sans Tibetan", sans-serif;
 ```
