@@ -9,16 +9,14 @@ Author URI: https://www.tibetitw.com/
 */
 
 function load_plugin_scripts() {
+	wp_enqueue_style( 'tibetan-google-fonts', '//fonts.googleapis.com/earlyaccess/notosanstibetan.css', false );
     wp_register_style( 'tibetan-style', plugins_url('/tibetan-style.css', __FILE__), false, '1.3.0' );
     wp_enqueue_style( 'tibetan-style' );
-    wp_register_style( 'tibetan-google-fonts', '//fonts.googleapis.com/earlyaccess/notosanstibetan.css' );
-    wp_enqueue_style( 'tibetan-google-fonts');
 }
 function load_plugin_admin_scripts() {
+	wp_enqueue_style( 'tibetan-google-fonts', '//fonts.googleapis.com/earlyaccess/notosanstibetan.css', false );
     wp_register_style( 'tibetan-editor-style', plugins_url('/tibetan-editor-style.css', __FILE__), false, '1.3.0' );
     wp_enqueue_style( 'tibetan-editor-style' );
-    wp_register_style( 'tibetan-google-fonts', '//fonts.googleapis.com/earlyaccess/notosanstibetan.css' );
-    wp_enqueue_style( 'tibetan-google-fonts');
 }
 
 add_action( 'wp_enqueue_scripts', 'load_plugin_scripts' );
