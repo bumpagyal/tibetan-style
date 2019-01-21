@@ -1,7 +1,10 @@
 /*---------------------------------------------------------------------------------
 	Editor styles for Tibetan
 ---------------------------------------------------------------------------------*/
-
+@import url(//fonts.googleapis.com/earlyaccess/notosanstibetan.css);
+body {
+	font-family: "Noto Sans Tibetan",sans-serif;
+}
 body *,
 #wpadminbar *,
 .wp-editor-container textarea.wp-editor-area {

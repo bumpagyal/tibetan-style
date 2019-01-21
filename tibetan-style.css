@@ -1,7 +1,10 @@
 /*---------------------------------------------------------------------------------
 	Tibetan style
 ---------------------------------------------------------------------------------*/
-
+@import url(//fonts.googleapis.com/earlyaccess/notosanstibetan.css);
+body {
+	font-family: "Noto Sans Tibetan",sans-serif;
+}
 #wpadminbar *,
 .wp-embed {
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue","Noto Sans Tibetan",sans-serif;
