@@ -1,7 +1,7 @@
 /*---------------------------------------------------------------------------------
 	Tibetan style
 ---------------------------------------------------------------------------------*/
-@import url(//fonts.googleapis.com/earlyaccess/notosanstibetan.css);
+@import url(fonts/notosanstibetan.css);
 body {
 	font-family: "Noto Sans Tibetan",sans-serif;
 }
