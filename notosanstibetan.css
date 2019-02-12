@@ -3,12 +3,10 @@
  */
 @font-face {
 	font-family: 'Noto Sans Tibetan';
-	font-style: normal;
-	font-weight: 400;
-	src: url(fonts/NotoSansTibetan-Regular.eot);
-	src: local("Noto Sans Tibetan"),
+	src: local('Jomolhari'),local('Tibetan Machine Uni'),local('Monlam Uni Sans Serif'),local('Qomolangma-Uchen Sarchung'),local('Noto Sans Tibetan'),
 		url(fonts/NotoSansTibetan-Regular.eot?#iefix) format('embedded-opentype'),
 		url(fonts/NotoSansTibetan-Regular.woff2) format('woff2'),
 		url(fonts/NotoSansTibetan-Regular.woff) format('woff'),
 		url(fonts/NotoSansTibetan-Regular.ttf) format('truetype');
+	unicode-range: U+0F00-0FFF;
 }
