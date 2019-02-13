@@ -2,9 +2,12 @@
 	Tibetan style
 ---------------------------------------------------------------------------------*/
 @import url("notosanstibetan.css");
-
-body, button, label, input, select, textarea,
-#wpadminbar *,
-.wp-embed {
+/* Tibetan */
+html[lang="bo"] #wpadminbar *,
+html[lang="bo"] .wp-embed {
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue","Noto Sans Tibetan",sans-serif;
+}
+html[lang="bo"] .dashicons,
+html[lang="bo"] .dashicons-before:before {
+	font-family: dashicons;
 }
