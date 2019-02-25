@@ -1,11 +1,11 @@
 /*---------------------------------------------------------------------------------
 	Tibetan style
 ---------------------------------------------------------------------------------*/
-@import url("notosanstibetan.css");
+@import url("tibetan-fonts.css");
 /* Tibetan */
 html[lang="bo"] #wpadminbar *,
 html[lang="bo"] .wp-embed {
-	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue","Noto Sans Tibetan",sans-serif;
+	font-family: "Qomolangma-Uchen Sarchen","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 html[lang="bo"] .dashicons,
 html[lang="bo"] .dashicons-before:before {

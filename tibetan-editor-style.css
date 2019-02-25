@@ -1,7 +1,7 @@
 /*---------------------------------------------------------------------------------
 	Editor styles for Tibetan
 ---------------------------------------------------------------------------------*/
-@import url("notosanstibetan.css");
+@import url("tibetan-fonts.css");
 /* Tibetan */
 html[lang="bo"] *,
 html[lang="bo"] #wpadminbar *,
@@ -14,14 +14,17 @@ html[lang="bo"] .media-frame input[type=text],
 html[lang="bo"] .media-frame input[type=url], 
 html[lang="bo"] .media-frame select, 
 html[lang="bo"] .media-frame textarea {
-	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue","Noto Sans Tibetan",sans-serif;
+	font-family: "Qomolangma-Uchen Sarchen","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 html[lang="bo"] .dashicons,
 html[lang="bo"] .dashicons-before:before {
 	font-family: dashicons;
 }
 html[lang="bo"] .wp-block * {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue","Noto Sans Tibetan",sans-serif !important;
+	font-family: "Qomolangma-Uchen Sarchung","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+html[lang="bo"] .editor-post-title__block .editor-post-title__input {
+	font-family: "Qomolangma-Uchen Sarchen","Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
 /* Make sure our non-latin font overrides don't overwrite the iconfont used in the classic editor toolbar */
 html[lang="bo"] .wp-block[data-type="core/freeform"] .mce-btn i {
