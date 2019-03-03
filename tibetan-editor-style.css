@@ -21,7 +21,7 @@ html[lang="bo"] .dashicons-before:before {
 	font-family: dashicons;
 }
 html[lang="bo"] .wp-block * {
-	font-family: "Qomolangma-Uchen Sarchung","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	font-family: "Qomolangma-Uchen Sarchung",Georgia,"Times New Roman",Times,serif !important;
 }
 html[lang="bo"] .editor-post-title__block .editor-post-title__input {
 	font-family: "Qomolangma-Uchen Sarchen","Helvetica Neue",Helvetica,Arial,sans-serif !important;
