@@ -23,7 +23,13 @@ html[lang="bo"] .dashicons-before:before {
 html[lang="bo"] .wp-block * {
 	font-family: "Qomolangma-Uchen Sarchung",Georgia,"Times New Roman",Times,serif !important;
 }
-html[lang="bo"] .editor-post-title__block .editor-post-title__input {
+html[lang="bo"] .editor-post-title__block .editor-post-title__input,
+html[lang="bo"] .wp-block-heading h1.editor-rich-text__tinymce,
+html[lang="bo"] .wp-block-heading h2.editor-rich-text__tinymce,
+html[lang="bo"] .wp-block-heading h3.editor-rich-text__tinymce,
+html[lang="bo"] .wp-block-heading h4.editor-rich-text__tinymce,
+html[lang="bo"] .wp-block-heading h5.editor-rich-text__tinymce,
+html[lang="bo"] .wp-block-heading h6.editor-rich-text__tinymce {
 	font-family: "Qomolangma-Uchen Sarchen","Helvetica Neue",Helvetica,Arial,sans-serif !important;
 }
 /* Make sure our non-latin font overrides don't overwrite the iconfont used in the classic editor toolbar */
