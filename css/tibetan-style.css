@@ -2,12 +2,17 @@
 	Tibetan style
 ---------------------------------------------------------------------------------*/
 @import url("tibetan-fonts.css");
-/* Tibetan */
-html[lang="bo"] #wpadminbar *,
-html[lang="bo"] .wp-embed {
-	font-family: "Qomolangma-Uchen Sarchen","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+/* Build Tibetan font styles */
+body:lang(bo), button:lang(bo),
+input:lang(bo),
+select:lang(bo),
+optgroup:lang(bo),
+textarea:lang(bo),
+html:lang(bo) .wp-embed .wp-embed-excerpt {
+	font-family: "Qomolangma-Uchen Sarchung", Georgia, "Times New Roman", Times, serif
 }
-html[lang="bo"] .dashicons,
-html[lang="bo"] .dashicons-before:before {
-	font-family: dashicons;
+html:lang(bo) #wpadminbar *,
+html:lang(bo) .wp-embed {
+	font-family: "Qomolangma-Uchen Sarchen", "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif
 }

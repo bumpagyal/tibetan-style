@@ -12,7 +12,7 @@ This plugin is for the problem that WordPress default Tibetan font is too small 
 
 ### 例如
 ```css
-font-family: "Qomolangma-Uchen Sarchen", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: "Qomolangma-Uchen Sarchen", "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
 ```
 
 ### 或者

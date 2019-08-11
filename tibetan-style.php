@@ -3,7 +3,7 @@
 Plugin Name: Tibetan Style
 Plugin URI:  https://www.tibetitw.com/wordpress-plugin/tibetan-style/
 Description: This plugin is for the problem that WordPress default Tibetan font is too small on Windows system. When the user does not install any Tibetan font, "Qomolangma-Uchen Sarchen" is used as the default font to display Tibetan, instead of "Microsoft Himalaya" font. If it is an operating system such as a Mac, the default font body of the system will be called.
-Version:     1.3.5
+Version:     1.3.6
 Author:      Bumpagyal
 Author URI:  https://www.tibetitw.com/
 License:     GPL2
