@@ -1,7 +1,6 @@
 /*---------------------------------------------------------------------------------
 	Editor styles for Tibetan
 ---------------------------------------------------------------------------------*/
-@import url("tibetan-fonts.css");
 
 /* Build Tibetan font styles */
 html:lang(bo) #wpadminbar *,
@@ -65,17 +64,15 @@ html:lang(bo) body,
 .editor-styles-wrapper .wp-block-latest-comments .wp-block-latest-comments__comment-meta:lang(bo),
 .editor-styles-wrapper .wp-caption dd:lang(bo),
 .editor-styles-wrapper .wp-block-freeform blockquote cite:lang(bo),
+.editor-styles-wrapper:lang(bo),
 html:lang(bo) .mce-container, html:lang(bo) .mce-container *, html:lang(bo) .mce-widget, html:lang(bo) .mce-widget *, html:lang(bo) .mce-reset,
 html:lang(bo) .wp-editor-area {
-	font-family: "Qomolangma-Uchen Sarchen", "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif
-}
-.editor-styles-wrapper:lang(bo) {
-	font-family: "Qomolangma-Uchen Sarchung", Georgia, "Times New Roman", Times, serif
+	font-family: Jomolhari, serif
 }
 
 @media screen and (max-width:782px) {
 	html:lang(bo) #wpadminbar * {
-		font-family: "Qomolangma-Uchen Sarchen", "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif
+		font-family: Jomolhari, serif
 	}
 }
 

@@ -1,7 +1,6 @@
 /*---------------------------------------------------------------------------------
 	Tibetan style
 ---------------------------------------------------------------------------------*/
-@import url("tibetan-fonts.css");
 
 /* Build Tibetan font styles */
 body:lang(bo), button:lang(bo),
@@ -10,9 +9,9 @@ select:lang(bo),
 optgroup:lang(bo),
 textarea:lang(bo),
 html:lang(bo) .wp-embed .wp-embed-excerpt {
-	font-family: "Qomolangma-Uchen Sarchung", Georgia, "Times New Roman", Times, serif
+	font-family: Jomolhari, serif
 }
 html:lang(bo) #wpadminbar *,
 html:lang(bo) .wp-embed {
-	font-family: "Qomolangma-Uchen Sarchen", "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif
+	font-family: Jomolhari, serif
 }
