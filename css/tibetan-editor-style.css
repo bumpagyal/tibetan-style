@@ -1,6 +1,12 @@
-/*---------------------------------------------------------------------------------
-	Editor styles for Tibetan
----------------------------------------------------------------------------------*/
+/* latin */
+@font-face {
+	font-family: 'Jomolhari';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local('-apple-system'), local('BlinkMacSystemFont'), local('Segoe UI'), local('Roboto'), local('Oxygen-Sans'), local('Ubuntu'), local('Cantarell'), local('Helvetica Neue'), url(https://fonts.gstatic.com/s/jomolhari/v1/EvONzA1M1Iw_CBd2hsQyEFgY.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 
 /* Build Tibetan font styles */
 html:lang(bo) #wpadminbar *,
@@ -67,12 +73,12 @@ html:lang(bo) body,
 .editor-styles-wrapper:lang(bo),
 html:lang(bo) .mce-container, html:lang(bo) .mce-container *, html:lang(bo) .mce-widget, html:lang(bo) .mce-widget *, html:lang(bo) .mce-reset,
 html:lang(bo) .wp-editor-area {
-	font-family: Jomolhari, serif
+	font-family: Jomolhari, sans-serif
 }
 
 @media screen and (max-width:782px) {
 	html:lang(bo) #wpadminbar * {
-		font-family: Jomolhari, serif
+		font-family: Jomolhari, sans-serif
 	}
 }
 

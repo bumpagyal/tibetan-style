@@ -12,7 +12,7 @@ This plugin is for the problem that WordPress default Tibetan font is too small 
 
 ### 例如
 ```css
-font-family: Jomolhari, Georgia, "Times New Roman", Times, serif;
+font-family: Jomolhari, sans-serif;
 ```
 
 ## 协议
