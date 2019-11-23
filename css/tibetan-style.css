@@ -4,8 +4,8 @@
 	font-style: normal;
 	font-weight: 400;
 	font-display: swap;
-	src: local('Kailasa'), local('Jomolhari Regular'), local('Jomolhari-Regular'), url(https://fonts.gstatic.com/s/jomolhari/v1/EvONzA1M1Iw_CBd2hsQyBVgYCK1YNzvX.woff2) format('woff2');
-	unicode-range: U+0F00-0FFF, U+200C-200D, U+25CC;
+	src: local('Kailasa'), local('Noto Sans Tibetan'), local('Jomolhari Regular'), local('Jomolhari-Regular'), url(https://fonts.gstatic.com/s/jomolhari/v1/EvONzA1M1Iw_CBd2hsQyBVgYCK1YNzvX.woff2) format('woff2');
+	unicode-range: U+0F00-0FFF;
 }
 /* latin */
 @font-face {
