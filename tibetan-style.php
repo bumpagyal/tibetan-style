@@ -2,9 +2,9 @@
 /*
 Plugin Name: Tibetan Style
 Plugin URI:  https://www.tibetitw.com/wordpress-plugin/tibetan-style/
-Description: This plugin is for the problem that WordPress default Tibetan font is too small on Windows system. When the user does not install any Tibetan font, Jomolhari is used as the default font to display Tibetan.
-Version:     2.1.0
-Author:      Bumpagyal
+Description: This plugin is for the problem that WordPress default Tibetan font is too small on Windows system. When the user does not install any Tibetan font, bigger_himalaya.ttf is used as the default font to display Tibetan in Windows.
+Version:     2.1.4
+Author:      Bumpa G. Rebkong
 Author URI:  https://www.tibetitw.com/
 License:     GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
