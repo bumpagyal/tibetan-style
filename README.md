@@ -12,7 +12,7 @@ This plugin is for the problem that WordPress default Tibetan font is too small 
 
 ### 例如
 ```css
-font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Kailasa, "Microsoft Himalaya", sans-serif;
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",Kokonor,Kailasa,"Microsoft Himalaya",sans-serif;
 ```
 
 ## 协议

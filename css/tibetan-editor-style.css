@@ -1,13 +1,15 @@
-/* tibetan */
-@font-face {
-	font-family: 'Microsoft Himalaya';
-	font-style: normal;
-	font-weight: 400;
-	src: url('//cdn.repository.webfont.com/webfonts/nomal/3041/47809/5de1e7cef629d80f0078ff0d.gif?r=123479631126');
-	src: url('//cdn.repository.webfont.com/webfonts/nomal/3041/47809/5de1e7cef629d80f0078ff0d.gif?r=123479631126?#iefix') format('embedded-opentype'),
-		 url('//cdn.repository.webfont.com/webfonts/nomal/3041/47809/5de1e7cef629d80f0078ff0d.png?r=123479631126') format('woff2'),
-		 url('//cdn.repository.webfont.com/webfonts/nomal/3041/47809/5de1e7cef629d80f0078ff0d.bmp?r=123479631126') format('woff'),
-		 url('//cdn.repository.webfont.com/webfonts/nomal/3041/47809/5de1e7cef629d80f0078ff0d.jpg?r=123479631126') format('truetype');
+@media (min-width: 992px) {
+	/* tibetan */
+	@font-face {
+		font-family: 'Microsoft Himalaya';
+		font-style: normal;
+		font-weight: 400;
+		src: url('//cdn.repository.webfont.com/webfonts/nomal/3041/47809/5de1e7cef629d80f0078ff0d.gif?r=123479631126');
+		src: url('//cdn.repository.webfont.com/webfonts/nomal/3041/47809/5de1e7cef629d80f0078ff0d.gif?r=123479631126?#iefix') format('embedded-opentype'),
+			 url('//cdn.repository.webfont.com/webfonts/nomal/3041/47809/5de1e7cef629d80f0078ff0d.png?r=123479631126') format('woff2'),
+			 url('//cdn.repository.webfont.com/webfonts/nomal/3041/47809/5de1e7cef629d80f0078ff0d.bmp?r=123479631126') format('woff'),
+			 url('//cdn.repository.webfont.com/webfonts/nomal/3041/47809/5de1e7cef629d80f0078ff0d.jpg?r=123479631126') format('truetype');
+	}
 }
 
 /* Build Tibetan font styles */
@@ -75,12 +77,12 @@ html:lang(bo) body,
 .editor-styles-wrapper:lang(bo),
 html:lang(bo) .mce-container, html:lang(bo) .mce-container *, html:lang(bo) .mce-widget, html:lang(bo) .mce-widget *, html:lang(bo) .mce-reset,
 html:lang(bo) .wp-editor-area {
-	font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Kailasa, "Microsoft Himalaya", sans-serif
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",Kokonor,Kailasa,"Microsoft Himalaya",sans-serif
 }
 
 @media screen and (max-width:782px) {
 	html:lang(bo) #wpadminbar * {
-		font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Kailasa, "Microsoft Himalaya", sans-serif
+		font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",Kokonor,Kailasa,"Microsoft Himalaya",sans-serif
 	}
 }
 
