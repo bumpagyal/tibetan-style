@@ -1,14 +1,12 @@
 @media (min-width: 992px) {
 	/* tibetan */
 	@font-face {
-		font-family: 'Microsoft Himalaya';
+		font-family: 'TibetanUI';
 		font-style: normal;
 		font-weight: 400;
-		src: url('//cdn.repository.webfont.com/webfonts/nomal/3041/47809/5de1e7cef629d80f0078ff0d.gif?r=123479631126');
-		src: url('//cdn.repository.webfont.com/webfonts/nomal/3041/47809/5de1e7cef629d80f0078ff0d.gif?r=123479631126?#iefix') format('embedded-opentype'),
-			 url('//cdn.repository.webfont.com/webfonts/nomal/3041/47809/5de1e7cef629d80f0078ff0d.png?r=123479631126') format('woff2'),
-			 url('//cdn.repository.webfont.com/webfonts/nomal/3041/47809/5de1e7cef629d80f0078ff0d.bmp?r=123479631126') format('woff'),
-			 url('//cdn.repository.webfont.com/webfonts/nomal/3041/47809/5de1e7cef629d80f0078ff0d.jpg?r=123479631126') format('truetype');
+		font-display: swap;
+		src: local("Monlam Uni Sans Serif"), url('../fonts/TibetanUI.woff2') format('woff2');
+		unicode-range: U+0F00-0FFF; /* Tibetan glyphs */
 	}
 }
 
@@ -21,5 +19,5 @@ textarea:lang(bo),
 html:lang(bo) .wp-embed .wp-embed-excerpt,
 html:lang(bo) #wpadminbar *,
 html:lang(bo) .wp-embed {
-	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",Kokonor,Kailasa,"Microsoft Himalaya",sans-serif
+	font-family: -apple-system,BlinkMacSystemFont,Kokonor,TibetanUI,sans-serif
 }
