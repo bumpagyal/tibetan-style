@@ -1,13 +1,11 @@
-@media (min-width: 992px) {
-	/* tibetan */
-	@font-face {
-		font-family: 'TibetanUI';
-		font-style: normal;
-		font-weight: 400;
-		font-display: swap;
-		src: local("Monlam Uni Sans Serif"), url('../fonts/TibetanUI.woff2') format('woff2');
-		unicode-range: U+0F00-0FFF; /* Tibetan glyphs */
-	}
+/* tibetan */
+@font-face {
+	font-family: 'Monlam UI';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('../fonts/monlam_ui.woff2') format('woff2');
+	unicode-range: U+0F00-0FFF; /* Tibetan glyphs */
 }
 
 /* Build Tibetan font styles */
@@ -19,5 +17,5 @@ textarea:lang(bo),
 html:lang(bo) .wp-embed .wp-embed-excerpt,
 html:lang(bo) #wpadminbar *,
 html:lang(bo) .wp-embed {
-	font-family: -apple-system,BlinkMacSystemFont,Kokonor,TibetanUI,sans-serif
+	font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Monlam UI", sans-serif
 }

@@ -1,8 +1,8 @@
 # Tibetan-Style
 
-This plugin is for the problem that WordPress default Tibetan font is too small on Windows system. When the user does not install any Tibetan font, TibetanUI is used as the default font to display Tibetan in Windows.
+This plugin is for the problem that WordPress default Tibetan font is too small on Windows system. When the user does not install any Tibetan font, "Monlam UI" is used as the default font to display Tibetan text.
 
-此插件为针对在 Windows 系统里 WordPress 后台默认藏文字体太小的问题，当用户未安装任何藏文字体时 TibetanUI 作为默认字体来显示藏文。
+此插件为针对在 Windows 系统里 WordPress 后台默认藏文字体太小的问题，当用户未安装任何藏文字体时 Monlam UI 作为默认字体来显示藏文。
 
 ## 如何使用
 下载本项目后，无需解压直接在 WordPress 后台添加插件并启用即可。
@@ -12,7 +12,7 @@ This plugin is for the problem that WordPress default Tibetan font is too small 
 
 ### 例如
 ```css
-font-family: -apple-system,BlinkMacSystemFont,Kokonor,TibetanUI,sans-serif;
+font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Monlam UI", sans-serif;
 ```
 
 ## 协议
