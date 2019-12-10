@@ -1,0 +1,11 @@
+/* Build Tibetan font styles */
+body:lang(bo), button:lang(bo),
+input:lang(bo),
+select:lang(bo),
+optgroup:lang(bo),
+textarea:lang(bo),
+html:lang(bo) .wp-embed .wp-embed-excerpt,
+html:lang(bo) #wpadminbar *,
+html:lang(bo) .wp-embed {
+	font-family: "Segoe UI","Helvetica Neue",Kokonor,Kailasa,"Tibetan Machine Uni","Noto Sans Tibetan",sans-serif
+}

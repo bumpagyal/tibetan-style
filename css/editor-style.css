@@ -1,13 +1,3 @@
-/* tibetan */
-@font-face {
-	font-family: 'Monlam UI';
-	font-style: normal;
-	font-weight: 400;
-	font-display: swap;
-	src: url('../fonts/monlam_ui.woff2') format('woff2');
-	unicode-range: U+0F00-0FFF; /* Tibetan glyphs */
-}
-
 /* Build Tibetan font styles */
 html:lang(bo) #wpadminbar *,
 html:lang(bo) #wpadminbar,
@@ -73,12 +63,12 @@ html:lang(bo) body,
 .editor-styles-wrapper:lang(bo),
 html:lang(bo) .mce-container, html:lang(bo) .mce-container *, html:lang(bo) .mce-widget, html:lang(bo) .mce-widget *, html:lang(bo) .mce-reset,
 html:lang(bo) .wp-editor-area {
-	font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Monlam UI", sans-serif
+	font-family: "Segoe UI","Helvetica Neue",Kokonor,Kailasa,"Tibetan Machine Uni","Noto Sans Tibetan",sans-serif
 }
 
 @media screen and (max-width:782px) {
 	html:lang(bo) #wpadminbar * {
-		font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Monlam UI", sans-serif
+		font-family: "Segoe UI","Helvetica Neue",Kokonor,Kailasa,"Tibetan Machine Uni","Noto Sans Tibetan",sans-serif
 	}
 }
 
