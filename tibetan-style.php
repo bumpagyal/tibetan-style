@@ -3,7 +3,7 @@
 Plugin Name: Tibetan Style
 Plugin URI:  https://www.tibetitw.com/wordpress-plugin/tibetan-style/
 Description: This plugin is for the problem that WordPress default Tibetan font is too small on Windows. When the user does not install any Tibetan font, "Noto Sans Tibetan" is used as the default font to display Tibetan.
-Version:     2.2.2
+Version:     2.2.3
 Author:      Bumpa G. Rebkong
 Author URI:  https://www.tibetitw.com/
 License:     GPL2

@@ -63,12 +63,12 @@ html:lang(bo) body,
 .editor-styles-wrapper:lang(bo),
 html:lang(bo) .mce-container, html:lang(bo) .mce-container *, html:lang(bo) .mce-widget, html:lang(bo) .mce-widget *, html:lang(bo) .mce-reset,
 html:lang(bo) .wp-editor-area {
-	font-family: "Segoe UI","Helvetica Neue",Kokonor,Kailasa,"Tibetan Machine Uni","Noto Sans Tibetan",sans-serif
+	font-family: "Segoe UI","Helvetica Neue",Kailasa,"Tibetan Machine Uni","Noto Sans Tibetan",sans-serif
 }
 
 @media screen and (max-width:782px) {
 	html:lang(bo) #wpadminbar * {
-		font-family: "Segoe UI","Helvetica Neue",Kokonor,Kailasa,"Tibetan Machine Uni","Noto Sans Tibetan",sans-serif
+		font-family: "Segoe UI","Helvetica Neue",Kailasa,"Tibetan Machine Uni","Noto Sans Tibetan",sans-serif
 	}
 }
 
