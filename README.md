@@ -1,15 +1,13 @@
 # Tibetan-Style
 
-This plugin is for the problem that WordPress default Tibetan font is too small on Windows. When the user does not install any Tibetan font, "Jomolhari" is used as the default font to display Tibetan on Windows.
-
-此插件为针对在Windows系统里WordPress后台默认藏文字体太小的问题，当Windows用户未安装任何藏文字体时"Jomolhari"作为默认字体来显示藏文。
+This plugin allows you to easily use Tibetan Google Fonts on your WordPress website, "Jomolhari" is used as the default font to display Tibetan.
 
 ## 如何使用
 下载本项目后，无需解压直接在WordPress后台添加插件并启用即可。
 
-## 前端页面调用
+## Front end style
 ```css
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", "Kokonor", "Kailasa", "Tibetan Machine Uni", "Noto Sans Tibetan", "Jomolhari", "Microsoft Himalaya", sans-serif;
+font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", "Jomolhari", sans-serif;
 ```
 
 ## 协议
