@@ -2,8 +2,8 @@
 /*
 Plugin Name: Tibetan Style
 Plugin URI:  https://www.tibetitw.com/wordpress-plugin/tibetan-style/
-Description: This plugin allows you to easily use Tibetan Google Fonts on your WordPress website, "Jomolhari" is used as the default font to display Tibetan.
-Version:     3.0.0
+Description: This plugin allows you to easily use "Noto Sans Tibetan" on your WordPress website, "Noto Sans Tibetan" is used as the default font to display Tibetan.
+Version:     3.0.1
 Author:      Bumpa G. Rebkong
 Author URI:  https://www.tibetitw.com/
 License:     GPL2
@@ -21,7 +21,7 @@ function admin_custom_font() {
     }
 
     // Loading Google Fonts
-    wp_enqueue_style('tibetan-google-fonts', 'https://fonts.googleapis.com/css?family=Jomolhari&display=swap&subset=tibetan', false );
+    wp_enqueue_style('tibetan-fonts', '//fonts.googleapis.com/earlyaccess/notosanstibetan.css', false );
 
     wp_register_style( 'tibetan-style', plugin_dir_url(__FILE__) . 'css/base-style.css', false, '' );
     wp_enqueue_style( 'tibetan-style' );
@@ -41,7 +41,7 @@ function admin_editor_font() {
     }
 
     // Loading Google Fonts
-    wp_enqueue_style('tibetan-google-fonts', 'https://fonts.googleapis.com/css?family=Jomolhari&display=swap&subset=tibetan', false );
+    wp_enqueue_style('tibetan-fonts', '//fonts.googleapis.com/earlyaccess/notosanstibetan.css', false );
 
     wp_register_style( 'tibetan-editor-style', plugin_dir_url(__FILE__) . 'css/editor-style.css', false, '' );
     wp_enqueue_style( 'tibetan-editor-style' );
