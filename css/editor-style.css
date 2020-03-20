@@ -64,13 +64,13 @@ html:lang(bo) body,
 html:lang(bo) .mce-container, html:lang(bo) .mce-container *, html:lang(bo) .mce-widget, html:lang(bo) .mce-widget *, html:lang(bo) .mce-reset,
 html:lang(bo) .wp-editor-area,
 html:lang(bo) .components-snackbar__content {
-	font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", "Jomolhari", sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Kokonor, Kailasa, "Tibetan Machine Uni", Jomolhari, "Noto Sans Tibetan", "Microsoft Himalaya", sans-serif;
 	letter-spacing: normal;
 }
 
 @media screen and (max-width:782px) {
 	html:lang(bo) #wpadminbar * {
-		font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", "Jomolhari", sans-serif;
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Kokonor, Kailasa, "Tibetan Machine Uni", Jomolhari, "Noto Sans Tibetan", "Microsoft Himalaya", sans-serif;
 		letter-spacing: normal;
 	}
 }
