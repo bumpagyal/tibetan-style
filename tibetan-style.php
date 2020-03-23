@@ -20,9 +20,6 @@ function admin_custom_font() {
 	    wp_enqueue_style( 'tibetan-win-style');
     }
 
-    // Loading Google Fonts
-    wp_enqueue_style('tibetan-fonts', '//fonts.googleapis.com/earlyaccess/notosanstibetan.css', false );
-
     wp_register_style( 'tibetan-style', plugin_dir_url(__FILE__) . 'css/base-style.css', false, '' );
     wp_enqueue_style( 'tibetan-style' );
     
@@ -39,9 +36,6 @@ function admin_editor_font() {
 	    wp_register_style( 'tibetan-win-style', plugin_dir_url(__FILE__) . 'css/index-win.css', false, '' );
 	    wp_enqueue_style( 'tibetan-win-style');
     }
-
-    // Loading Google Fonts
-    wp_enqueue_style('tibetan-fonts', '//fonts.googleapis.com/earlyaccess/notosanstibetan.css', false );
 
     wp_register_style( 'tibetan-editor-style', plugin_dir_url(__FILE__) . 'css/editor-style.css', false, '' );
     wp_enqueue_style( 'tibetan-editor-style' );
