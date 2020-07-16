@@ -2,19 +2,28 @@
 /*
 Plugin Name: Tibetan Style
 Plugin URI:  https://www.tibetitw.com/wordpress-plugin/tibetan-style/
-Description: This plugin allows you to easily use "Noto Sans Tibetan" on your WordPress website, "Noto Sans Tibetan" is used as the default font to display Tibetan.
-Version:     3.0.1
+Description: This plugin allows you to easily use Tibetan Google Fonts on your WordPress website, "Jomolhari" is used as the default font to display Tibetan on Windows.
+Version:     3.0.2
 Author:      Bumpa G. Rebkong
 Author URI:  https://www.tibetitw.com/
 License:     GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
+// Direct Access Forbidden
+if ( !defined('ABSPATH') ) {
+    exit;
+}
+
 // WordPress Custom Font @ Admin Embed
 function admin_custom_font() {
 
     // Only on Windows
-    if(preg_match("/(Win|WIN|Windows|win|winNT).*?([\d.]+)/",$_SERVER['HTTP_USER_AGENT'])){
+    if(strncasecmp(PHP_OS, 'WIN', 3) == 0){
+
+        // Google Font
+        wp_register_style('tibetan-font-files', 'https://fonts.googleapis.com/css2?family=Jomolhari&display=swap', false, '' );
+        wp_enqueue_style('tibetan-font-files');
 
 	    wp_register_style( 'tibetan-win-style', plugin_dir_url(__FILE__) . 'css/index-win.css', false, '' );
 	    wp_enqueue_style( 'tibetan-win-style');
@@ -31,8 +40,12 @@ add_action( 'enqueue_embed_scripts', 'admin_custom_font' );
 function admin_editor_font() {
 
     // Only on Windows
-    if(preg_match("/(Win|WIN|Windows|win|winNT).*?([\d.]+)/",$_SERVER['HTTP_USER_AGENT'])){
+    if(strncasecmp(PHP_OS, 'WIN', 3) == 0){
 
+        // Google Font
+        wp_register_style('tibetan-font-files', 'https://fonts.googleapis.com/css2?family=Jomolhari&display=swap', false, '' );
+        wp_enqueue_style('tibetan-font-files');
+        
 	    wp_register_style( 'tibetan-win-style', plugin_dir_url(__FILE__) . 'css/index-win.css', false, '' );
 	    wp_enqueue_style( 'tibetan-win-style');
     }
