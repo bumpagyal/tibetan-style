@@ -9,7 +9,7 @@ This plugin allows you to easily use Tibetan Google Fonts on your WordPress webs
 
 ## Front end style
 ```css
-font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, Kokonor, "Tibetan Machine Uni", Jomolhari, serif;
+font-family: Georgia, Times, "Times New Roman", Kokonor, "Tibetan Machine Uni", Jomolhari, serif;
 ```
 
 ## 协议
