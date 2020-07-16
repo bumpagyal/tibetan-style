@@ -15,18 +15,26 @@ if ( !defined('ABSPATH') ) {
     exit;
 }
 
+// Google Font
+function add_google_fonts() {
+
+    wp_enqueue_style( 'tibetan-google-fonts', 'https://fonts.googleapis.com/css2?family=Jomolhari&display=swap', false, '' );
+    
+}
+add_action( 'wp_enqueue_scripts', 'add_google_fonts' );
+add_action( 'enqueue_embed_scripts', 'add_google_fonts' );
+add_action( 'login_enqueue_scripts', 'add_google_fonts' );
+add_action( 'admin_enqueue_scripts', 'add_google_fonts' );
+
 // WordPress Custom Font @ Admin Embed
 function admin_custom_font() {
 
     // Only on Windows
     if(strncasecmp(PHP_OS, 'WIN', 3) == 0){
 
-        // Google Font
-        wp_register_style('tibetan-font-files', 'https://fonts.googleapis.com/css2?family=Jomolhari&display=swap', false, '' );
-        wp_enqueue_style('tibetan-font-files');
+        wp_register_style( 'tibetan-win-style', plugin_dir_url(__FILE__) . 'css/index-win.css', false, '' );
+        wp_enqueue_style( 'tibetan-win-style');
 
-	    wp_register_style( 'tibetan-win-style', plugin_dir_url(__FILE__) . 'css/index-win.css', false, '' );
-	    wp_enqueue_style( 'tibetan-win-style');
     }
 
     wp_register_style( 'tibetan-style', plugin_dir_url(__FILE__) . 'css/base-style.css', false, '' );
@@ -41,13 +49,10 @@ function admin_editor_font() {
 
     // Only on Windows
     if(strncasecmp(PHP_OS, 'WIN', 3) == 0){
-
-        // Google Font
-        wp_register_style('tibetan-font-files', 'https://fonts.googleapis.com/css2?family=Jomolhari&display=swap', false, '' );
-        wp_enqueue_style('tibetan-font-files');
         
-	    wp_register_style( 'tibetan-win-style', plugin_dir_url(__FILE__) . 'css/index-win.css', false, '' );
-	    wp_enqueue_style( 'tibetan-win-style');
+        wp_register_style( 'tibetan-win-style', plugin_dir_url(__FILE__) . 'css/index-win.css', false, '' );
+        wp_enqueue_style( 'tibetan-win-style');
+
     }
 
     wp_register_style( 'tibetan-editor-style', plugin_dir_url(__FILE__) . 'css/editor-style.css', false, '' );
