@@ -68,13 +68,13 @@ html:lang(bo) body,
 html:lang(bo) .mce-container, html:lang(bo) .mce-container *, html:lang(bo) .mce-widget, html:lang(bo) .mce-widget *, html:lang(bo) .mce-reset,
 html:lang(bo) .wp-editor-area,
 html:lang(bo) .components-snackbar__content {
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, Kokonor, "Tibetan Machine Uni", Jomolhari, serif;
+	font-family: Georgia, Times, "Times New Roman", Kokonor, "Tibetan Machine Uni", Jomolhari, serif;
 	letter-spacing: normal;
 }
 
 @media screen and (max-width:782px) {
 	html:lang(bo) #wpadminbar * {
-		font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, Kokonor, "Tibetan Machine Uni", Jomolhari, serif;
+		font-family: Georgia, Times, "Times New Roman", Kokonor, "Tibetan Machine Uni", Jomolhari, serif;
 		letter-spacing: normal;
 	}
 }
