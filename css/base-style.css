@@ -7,6 +7,6 @@ textarea:lang(bo),
 html:lang(bo) .wp-embed .wp-embed-excerpt,
 html:lang(bo) #wpadminbar *,
 html:lang(bo) .wp-embed {
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, Kokonor, "Tibetan Machine Uni", Jomolhari, serif;
+	font-family: Georgia, Times, "Times New Roman", Kokonor, "Tibetan Machine Uni", Jomolhari, serif;
 	letter-spacing: normal;
 }
