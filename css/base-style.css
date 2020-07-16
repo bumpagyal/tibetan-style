@@ -7,6 +7,6 @@ textarea:lang(bo),
 html:lang(bo) .wp-embed .wp-embed-excerpt,
 html:lang(bo) #wpadminbar *,
 html:lang(bo) .wp-embed {
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Kokonor, Kailasa, "Tibetan Machine Uni", Jomolhari, "Noto Sans Tibetan", "Microsoft Himalaya", sans-serif;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, Kokonor, "Tibetan Machine Uni", Jomolhari, serif;
 	letter-spacing: normal;
 }
