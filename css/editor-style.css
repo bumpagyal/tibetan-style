@@ -63,7 +63,7 @@ html:lang(bo) body,
 .editor-styles-wrapper:lang(bo),
 .edit-post-welcome-guide__heading:lang(bo),
 .editor-styles-wrapper p:lang(bo), .editor-styles-wrapper ol:lang(bo), .editor-styles-wrapper ul:lang(bo), .editor-styles-wrapper dl:lang(bo), .editor-styles-wrapper dt:lang(bo),
-.block-editor-default-block-appender textarea:lang(bo).block-editor-default-block-appender__content:lang(bo),
+.block-editor-default-block-appender textarea:lang(bo) .block-editor-default-block-appender__content:lang(bo),
 html:lang(bo) .mce-container, html:lang(bo) .mce-container *, html:lang(bo) .mce-widget, html:lang(bo) .mce-widget *, html:lang(bo) .mce-reset,
 html:lang(bo) .wp-editor-area,
 html:lang(bo) .components-snackbar__content {
