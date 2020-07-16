@@ -30,7 +30,7 @@ add_action( 'admin_enqueue_scripts', 'add_google_fonts' );
 function admin_custom_font() {
 
     // Only on Windows
-    if(strncasecmp(PHP_OS, 'WIN', 3) == 0){
+    if(preg_match("/(Win|WIN|Windows|win|winNT).*?([\d.]+)/",$_SERVER['HTTP_USER_AGENT'])){
 
         wp_register_style( 'tibetan-win-style', plugin_dir_url(__FILE__) . 'css/index-win.css', false, '' );
         wp_enqueue_style( 'tibetan-win-style');
@@ -48,7 +48,7 @@ add_action( 'enqueue_embed_scripts', 'admin_custom_font' );
 function admin_editor_font() {
 
     // Only on Windows
-    if(strncasecmp(PHP_OS, 'WIN', 3) == 0){
+    if(preg_match("/(Win|WIN|Windows|win|winNT).*?([\d.]+)/",$_SERVER['HTTP_USER_AGENT'])){
         
         wp_register_style( 'tibetan-win-style', plugin_dir_url(__FILE__) . 'css/index-win.css', false, '' );
         wp_enqueue_style( 'tibetan-win-style');
