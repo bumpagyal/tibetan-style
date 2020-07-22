@@ -2,12 +2,12 @@
 /*
 Plugin Name: Tibetan Style
 Plugin URI:  https://www.tibetitw.com/wordpress-plugin/tibetan-style/
-Description: This plugin allows you to easily use Tibetan Google Fonts on your WordPress website, "Jomolhari" is used as the default font to display Tibetan on Windows.
+Description: This plugin allows you to easily use Tibetan Google Fonts on your WordPress website, "Jomolhari" is used as the default font to display Tibetan, Solved the problem that "Microsoft Himalaya" font is too small on Windows.
 Version:     3.0.2
 Author:      Bumpa G. Rebkong
 Author URI:  https://www.tibetitw.com/
-License:     GPL2
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+License:     GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 */
 
 // Direct Access Forbidden
