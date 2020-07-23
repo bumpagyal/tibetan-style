@@ -23,6 +23,9 @@ No questions yet.
 
 == Changelog ==
 
+= 3.1.0 =
+* 优化了代码
+
 = 3.0.2 =
 * 改进了对区块编辑器的支持
 * 在Windows上“Jomolhari”字体用作默认显示藏文
